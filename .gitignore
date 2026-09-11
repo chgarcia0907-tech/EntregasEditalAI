@@ -1,0 +1,38 @@
+# Dimensionamentos e validações de projetos reais — contêm dados de cliente.
+# Guarde no Drive do núcleo, não no repositório.
+dimensionamento-*.json
+validacao-*.json
+validacao.json
+*.pdf
+!docs/**/*.pdf
+
+# Transcrições e material bruto de reunião
+transcricoes/
+material-bruto/
+*.vtt
+*.srt
+
+# Workspace de avaliação das skills
+*-workspace/
+evals/results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
